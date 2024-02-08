@@ -53,7 +53,7 @@ public class PlanetStatisticsAnalyser : IPlanetStatisticsAnalyser
 
         ShowStatistics(
             "Min",
-            planets.MaxBy(propertySelector),
+            planets.MinBy(propertySelector),
             propertySelector,
             propertyName);
     }
